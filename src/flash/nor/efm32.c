@@ -191,6 +191,7 @@ static const struct efm32_family_data efm32_families[] = {
 		{ 120, "EZR32WG Wonder", .series = 0 },
 		{ 121, "EZR32LG Leopard", .series = 0 },
 		{ 122, "EZR32HG Happy", .series = 0, .page_size = 1024 },
+		{ 128, "EFR32ZG23", .series = 0, .page_size = 1024 },
 };
 
 const struct flash_driver efm32_flash;
